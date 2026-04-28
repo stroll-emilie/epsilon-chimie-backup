@@ -78,17 +78,17 @@ src/
 │   ├── Button/        Button.jsx          ← ✅ Livré
 │   ├── Input/         Input.jsx           ← ✅ Livré
 │   ├── Header/        Header.jsx          ← ✅ Livré
-│   ├── SearchBar/                         ← 🔲 À développer Sprint 1
-│   ├── ProductCard/                       ← 🔲 À développer Sprint 1
-│   ├── QuoteForm/                         ← 🔲 À développer Sprint 2
-│   ├── Footer/                            ← 🔲 À développer Sprint 2
-│   └── CookieBanner/                      ← 🔲 À développer Sprint 2
+│   ├── SearchBar/                         ← ✅ Livré
+│   ├── ProductCard/                       ← ✅ Livré
+│   ├── QuoteForm/                         ← 🔲 À développer
+│   ├── Footer/                            ← ✅ Livré
+│   └── CookieBanner/                      ← 🔲 À développer
 ├── pages/
-│   ├── HomePage.jsx                       ← 🔲 À développer
-│   ├── CataloguePage.jsx                  ← 🔲 À développer
-│   ├── ProductPage.jsx                    ← 🔲 À développer
-│   ├── QuotePage.jsx                      ← 🔲 À développer
-│   └── AboutPage.jsx                      ← 🔲 À développer
+│   ├── HomePage.jsx                       ← ✅ Livré
+│   ├── CataloguePage.jsx                  ← ✅ Livré
+│   ├── ProductPage.jsx                    ← ✅ Livré
+│   ├── QuotePage.jsx                      ← ✅ Livré
+│   └── AboutPage.jsx                      ← ✅ Livré
 └── styles/
     └── globals.css    ← Design tokens @theme — NE PAS MODIFIER sans Emilie
 ```
