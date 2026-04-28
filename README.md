@@ -3,7 +3,7 @@
 Site vitrine + catalogue du laboratoire de chimie pharmaceutique **Epsilon Chimie** (Brest, France).
 
 **Stack :** React 19 · Vite 6 · Tailwind CSS v4  
-**Chef de projet :** Emilie Cornec — Stroll. Collectif · emilie.cornec@orange.fr  
+**Chef de projet :** Emilie Cornec — Stroll. Collectif · emilie@stroll-collectif.com  
 **Client :** Epsilon Chimie (Pierre-Yves Cornec)  
 **Audience :** B2B internationale — acheteurs pharma, chercheurs, laboratoires industriels
 
@@ -32,7 +32,7 @@ npm run preview  # Prévisualiser le build
 |---|---|
 | Maquettes Figma HD (wireframes + DS) | https://www.figma.com/design/YhMxgEY4basLOkAxkTqeNy/ |
 | Site actuel à refaire | https://www.epsilon-chimie.com |
-| Chef de projet | emilie.cornec@orange.fr |
+| Chef de projet | emilie@stroll-collectif.com |
 
 ---
 
