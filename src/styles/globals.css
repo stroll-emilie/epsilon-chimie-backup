@@ -41,14 +41,15 @@
   --color-content-primary:            #364153;  /* gray/700 — corps de texte */
   --color-content-secondary:          #4a5565;  /* gray/600 — texte secondaire */
   --color-content-tertiary:           #99a1af;  /* gray/400 — placeholder */
-  --color-content-disabled:           #f3f4f6;  /* gray/100 — texte désactivé */
+  --color-content-disabled:           #d1d5dc;  /* gray/300 — texte désactivé */
   --color-content-accent:             #000087;  /* primary/500 — liens, accents */
   --color-content-link:               #000087;
   --color-content-link-hover:         #33339f;  /* primary/400 */
   --color-content-on-primary:         #f9fafb;  /* texte sur fond primary */
   --color-content-reversed-primary:   #f9fafb;  /* gray/50 */
-  --color-content-reversed-secondary: #f3f4f6;  /* gray/100 */
-  --color-content-reversed-tertiary:  #4a5565;  /* gray/600 */
+  --color-content-reversed-secondary: #b9c6db;  /* secondary/200 */
+  --color-content-reversed-tertiary:  #ccc8c4;  /* tertiary/800 */
+  --color-content-reversed-disabled:  #f9fafb;  /* gray/50 */
   --color-content-success:            #008236;  /* green/700 */
   --color-content-info:               #007595;  /* cyan/700 */
   --color-content-warning:            #bb4d00;  /* amber/700 */
@@ -56,9 +57,9 @@
 
   /* ── Arrière-plans ────────────────────────────────────── */
   --color-bg-default:          #f9fafb;  /* gray/50 — fond de page */
-  --color-bg-subtle:           #f3f4f6;  /* gray/100 — sections alternées */
+  --color-bg-subtle:           #f5f5f5;  /* neutral/100 — sections alternées */
   --color-bg-primary:          #000087;  /* primary/500 — hero, CTA */
-  --color-bg-primary-subtle:   #cccce7;  /* primary/100 */
+  --color-bg-primary-subtle:   #9f9fd2;  /* primary/200 */
   --color-bg-secondary:        #5171a5;  /* secondary/500 */
   --color-bg-secondary-subtle: #ffffff;
   --color-bg-reversed:         #4a5565;  /* gray/600 — footer */
@@ -79,7 +80,8 @@
   /* ── Bordures ─────────────────────────────────────────── */
   --color-border-default:  #e5e7eb;  /* gray/200 — input repos, cartes */
   --color-border-subtle:   #f3f4f6;  /* gray/100 — séparateurs internes */
-  --color-border-accent:   #000087;  /* primary/500 — focus, onglet actif */
+  --color-border-accent:        #000087;  /* primary/500 — focus, onglet actif */
+  --color-border-accent-subtle: #9f9fd2;  /* primary/200 */
   --color-border-danger:   #ffa2a2;  /* red/300 */
   --color-border-warning:  #fe9a00;  /* amber/500 */
   --color-border-info:     #53eafd;  /* cyan/300 */
@@ -89,21 +91,23 @@
   --color-border-focus:    #000087;  /* WCAG 2.4.11 */
 
   /* ── Icônes ───────────────────────────────────────────── */
-  --color-icon-default:  #4a5565;  /* gray/600 */
-  --color-icon-brand:    #000087;  /* primary/500 */
-  --color-icon-reversed: #f3f4f6;  /* gray/100 */
-  --color-icon-success:  #7bf1a8;  /* green/300 */
-  --color-icon-info:     #53eafd;  /* cyan/300 */
-  --color-icon-warning:  #ffd230;  /* amber/300 */
-  --color-icon-danger:   #ffc9c9;  /* red/200 */
+  --color-icon-default:      #4a5565;  /* gray/600 */
+  --color-icon-brand:        #000087;  /* primary/500 */
+  --color-icon-brand-subtle: #9f9fd2;  /* primary/200 */
+  --color-icon-reversed:     #f3f4f6;  /* gray/100 */
+  --color-icon-disabled:     #d1d5dc;  /* gray/300 */
+  --color-icon-success:      #00c950;  /* green/500 */
+  --color-icon-info:         #53eafd;  /* cyan/300 */
+  --color-icon-warning:      #ffd230;  /* amber/300 */
+  --color-icon-danger:       #fb2c36;  /* red/500 */
 
   /* ── États interactifs ────────────────────────────────── */
   --color-state-primary-hover:       #0f0f8e;
-  --color-state-primary-pressed:     #00006c;
+  --color-state-primary-pressed:     #000087;  /* primary/500 — cf. Figma (à vérifier si retour visuel souhaité) */
   --color-state-on-primary-hover:    #230087;
   --color-state-on-primary-pressed:  #00007a;
   --color-state-bg-primary-hover:    #020281;
-  --color-state-bg-primary-pressed:  #c6d5eb;
+  --color-state-bg-primary-pressed:  #6666b7;  /* primary/300 */
   --color-state-bg-neutral-hover:    #dedcdf;
   --color-state-bg-neutral-pressed:  #d6d4d8;
   --color-state-bg-dark-hover:       #0f0f8e;
