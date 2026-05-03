@@ -103,7 +103,7 @@
 
   /* ── États interactifs ────────────────────────────────── */
   --color-state-primary-hover:       #0f0f8e;
-  --color-state-primary-pressed:     #000087;  /* primary/500 — cf. Figma (à vérifier si retour visuel souhaité) */
+  --color-state-primary-pressed:     #00006c;  /* primary/600 — assombri au clic */
   --color-state-on-primary-hover:    #230087;
   --color-state-on-primary-pressed:  #00007a;
   --color-state-bg-primary-hover:    #020281;
