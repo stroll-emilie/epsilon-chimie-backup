@@ -46,6 +46,7 @@ export default function App() {
               Pharmaceutical Chemistry Laboratory — React/Vite + Tailwind CSS v4 starter
             </p>
           </header>
+          
 
           {/* Buttons preview */}
           <div className="flex flex-col gap-6 w-full max-w-lg">
